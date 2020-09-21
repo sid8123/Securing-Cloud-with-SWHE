@@ -21,10 +21,11 @@ bool isOp(string token);
 void evaluate(char op);
 
 void greeting() {
+        int i;
 	cout << "Welcome to the homomorphic encryption calculator" << endl;
-	cout << "Enter expressions in reverse polish notation" << endl;
+//	cout << "Enter expressions in reverse polish notation" << endl;
 
-	cout << "Enter q to quit" << endl;
+//	cout << "Enter q to quit" << endl;
 }
 /*template <typename T, std::size_t N>
 vector<int*> init_vector(T (&func)[N])
